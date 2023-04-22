@@ -1,6 +1,6 @@
 import './Hero.scss'
 
-import test from '../../assets/images/hero.png'
+import heroImg from '../../assets/images/hero.png'
 
 const Hero = () => {
   return (
@@ -12,7 +12,7 @@ const Hero = () => {
           <button>Consigue tu comunidad</button>
         </div>
         <div className={ 'hero__image'}>
-          <img src={test} />
+          <img src={heroImg} />
         </div>
       </div>
     </section>

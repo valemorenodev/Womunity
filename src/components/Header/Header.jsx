@@ -14,10 +14,10 @@ const Header = () => {
                                 <a href="#categories">Temáticas</a>
                             </li>
                             <li>
-                                <a href="#categories">Directorio</a>
+                                <a href="#directory">Directorio</a>
                             </li>
                             <li>
-                                <a href="#categories">Testimonios</a>
+                                <a href="#testimonials">Testimonios</a>
                             </li>
                         </ul>
                     </div>
