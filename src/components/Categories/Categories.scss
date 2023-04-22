@@ -15,6 +15,13 @@
 
     &--cardsContainer {
       margin: 20px;
+      max-width: 1444px;
+      width: 100%;
+      padding: 10px;
+
+      .colCards {
+        margin: 10px !important;
+      }
 
       .cards {
         width: 20rem;
@@ -25,7 +32,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        text-align: justify;
         padding-left: 3rem;
         padding-right: 2.5rem;
         position: relative;
