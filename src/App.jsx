@@ -1,7 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import Header from './components/Header/Header'
-import Hero from './components/hero/Hero';
+import Hero from './components/Hero/Hero';
+import Directory from './components/Directory/Directory';
 import Categories from './components/Categories/Categories';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Hero />
       <Categories />
+      <Directory />
     </>
   )
 }
