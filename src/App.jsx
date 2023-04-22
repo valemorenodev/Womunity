@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero';
 import Directory from './components/Directory/Directory';
+import Categories from './components/Categories/Categories';
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <>
       <Header />
       <Hero />
+      <Categories />
       <Directory />
     </>
   )
