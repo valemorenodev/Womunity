@@ -1,0 +1,15 @@
+.Image {
+  background-color: black;
+  width: 5rem;
+  height: 2rem;
+}
+
+.Button {
+  padding: 1rem 2rem;
+  background: #3a1cd0;
+  color: #fff;
+  border-radius: .3rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, .3) 0 5px 10px;
+}
