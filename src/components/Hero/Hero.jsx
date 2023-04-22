@@ -1,20 +1,21 @@
-import { Container, Row, Col } from "react-bootstrap";
-import Style from "./Hero.css"
+import './Hero.scss'
+
+import test from '../../assets/images/test.webp'
 
 const Hero = () => {
   return (
-    <Container>
-      <Row>
-        <Col>
-          <h1>Conecta a mujeres de todo el mundo</h1>
+    <section className={ 'hero'}>
+      <div className={ 'hero__container'}>
+        <div className={ 'hero__text'}>
+          <h1>Conecta con mujeres de todo el mundo</h1>
           <p>Compartir información, recursos y oportunidades.</p>
-          <button className={Style.Button}>Conoce más</button>
-        </Col>
-        <Col>
-          <div className={Style.Image}></div>
-        </Col>
-      </Row>
-    </Container>
+          <button>Entra a tu espacio</button>
+        </div>
+        <div className={ 'hero__image'}>
+          <img src={test} />
+        </div>
+      </div>
+    </section>
   );
 }
 
