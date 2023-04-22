@@ -42,7 +42,7 @@ const Categories = () => {
           </Col>
         </Row>
         <Row className={'categories__container--cardsContainer'}>
-          <Col>
+          <Col className={'colCards'}>
             <article className={'cards'}>
               <div className={'circle'}></div>
               <span className={'cards--text'}>
