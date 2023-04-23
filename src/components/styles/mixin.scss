@@ -1,0 +1,47 @@
+@mixin lg-mobile {
+  @media (min-width: 560px) {
+    @content;
+  }
+}
+
+@mixin mobile-landscape {
+  @media screen and (min-width: 560px) and (orientation : landscape) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin tablet-landscape {
+  @media screen and (min-width: 768px) and (orientation : landscape) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: 992px) {
+    @content;
+  }
+}
+
+@mixin lg-desktop {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin big-desktop {
+  @media (min-width: 1450px) {
+    @content;
+  }
+}
+
+@mixin xl-desktop {
+  @media (min-width: 1920px) {
+    @content;
+  }
+}
