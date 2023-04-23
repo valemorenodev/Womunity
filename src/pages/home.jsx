@@ -4,6 +4,7 @@ import Directory from '../components/Directory/Directory';
 import Categories from '../components/Categories/Categories';
 import Testimonials from '../components/Testimonials/Testimonials';
 import FormJoin from '../components/FormJoin/FormJoin';
+import Footer from '../components/Footer/Footer';
 
 
 function Home() {
@@ -21,6 +22,7 @@ function Home() {
         <Testimonials />
       </div>
       <FormJoin />
+      <Footer />
     </>
 
   )
