@@ -17,7 +17,6 @@ function App() {
           } />
           <Route path='/dashboard' element={
             <Dashboard 
-            // {...dashboard} 
           />
         } />
       </Routes>
