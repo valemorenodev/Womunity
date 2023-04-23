@@ -1,6 +1,6 @@
 import{ useState } from 'react';
 import {useNavigate} from 'react-router-dom';
-
+import logo from '../../assets/images/Womunity.png'
 import './Header.scss'
 
 const Header = () => { 
@@ -25,9 +25,11 @@ const Header = () => {
             <div className={ 'header__content'}>
                 <div className={ 'header__content--left'}>
                     <div className={ 'header__content--logo'}>
-                        <img src='https://womenawards.globant.com/themes/custom/disruptor/logo-women%402x.png' alt='Womunity'/>
+                        <img src={logo} alt='Womunity'/>
                     </div>
-                    <div className={ 'header__content--links'}>
+                </div>
+                <div className={ 'header__content--actions'}>
+                <div className={ 'header__content--links'}>
                         <ul>
                             <li>
                                 <a href="#categories">Temáticas</a>
@@ -40,8 +42,6 @@ const Header = () => {
                             </li>
                         </ul>
                     </div>
-                </div>
-                <div className={ 'header__content--actions'}>
                     <button className={ 'register'}>Registrate</button>
                     <button onClick={ handleLogin }>Entra a tu espacio</button>
 

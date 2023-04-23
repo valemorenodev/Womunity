@@ -1,6 +1,8 @@
 import './Directory.scss'
 
-import Avatar from '../../assets/images/avatar.png';
+import Avatar1 from '../../assets/images/col1.png';
+import Avatar2 from '../../assets/images/col2.png';
+import Avatar3 from '../../assets/images/col3.png';
 
 const Directory = () => {
     return (
@@ -14,17 +16,17 @@ de oportunidades para todas las mujeres
 
         <div className={ 'directory__cards'}>
             <div className={ 'directory__cards--item'}>
-                <img src={Avatar} alt="avatar"/>
+                <img src={Avatar1} alt="avatar"/>
                 <h3>Ana, Psicologa</h3>
                 <p>Profesional dedicada y empática que se especializa en el bienestar emocional y mental de las mujeres.</p>
             </div>
             <div className={ 'directory__cards--item'}>
-                <img src={Avatar} alt="avatar"/>
+                <img src={Avatar2} alt="avatar"/>
                 <h3>Maria, Abogada</h3>
                 <p>Profesional dedicada y empática que se especializa en el bienestar emocional y mental de las mujeres.</p>
             </div>
             <div className={ 'directory__cards--item'}>
-                <img src={Avatar} alt="avatar"/>
+                <img src={Avatar3} alt="avatar"/>
                 <h3>Laura, Ginecóloga</h3>
                 <p>Profesional dedicada y empática que se especializa en el bienestar emocional y mental de las mujeres.</p>
             </div>

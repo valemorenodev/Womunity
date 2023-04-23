@@ -22,7 +22,8 @@
 
         &--logo {
             img {
-                height: 40px;
+                height: 30px;
+                max-width: 264px;
             }
         }
 
@@ -33,6 +34,7 @@
                 gap: 20px;
                 align-items: center;
                 margin: 0;
+                margin-right: 10px;
                 li {
                     a {
                         text-decoration: none;
@@ -46,6 +48,7 @@
         &--actions {
             display: flex;
             gap: 16px;
+            align-items: center;
             button {
                 background: transparent;
                 border: 1px solid #8400DF;

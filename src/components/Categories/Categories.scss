@@ -59,6 +59,14 @@
         border-radius: 100%;
         left: -20px;
         top: -5px;
+        img {
+          object-fit: contain;
+          object-position: center;
+          display: flex;
+          margin: 0 auto;
+          height: 30px;
+          margin-top: 17px;
+        }
       }
 
     }
@@ -67,7 +75,7 @@
       background: #8400DF;
       color: #FFFFFF;
       border-radius: 34px;
-      padding: 5px;
+      padding: 10px 20px;
       font-size: 15px;
     }
   }
