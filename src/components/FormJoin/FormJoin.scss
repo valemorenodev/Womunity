@@ -1,0 +1,86 @@
+.form {
+  margin: 0px;
+  padding: 3.5rem;
+  background: #4D55F5;
+  color: #FFFFFF;
+
+  &_circle {
+    width: 100px;
+    height: 100px;
+  }
+
+  &_image {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    &--item {
+      height: 100px;
+      width: 50px;
+      border-radius: 70px;
+    }
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .inputs {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 15px;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+
+    &--select {
+      background-image: url(../../assets/images/SelectArrow.png);
+      background-repeat: no-repeat;
+      background-position: right center;
+      width: 100%;
+      height: 40px;
+      margin-top: 10px;
+      padding-left: 15px;
+      list-style: none;
+      text-decoration: none;
+      border: none;
+      outline: none;
+      border-radius: 30px;
+      appearance: none;
+    }
+
+    &--mensage {
+      margin-top: 10px;
+      height: 200px;
+      border-radius: 20px;
+    }
+
+    &--mensage::placeholder {
+      color: #000;
+    }
+  }
+
+  .inputs::placeholder {
+    color: #000;
+  }
+
+  .form_button {
+    margin-top: 10px;
+    background: #8400DF;
+    border-radius: 34px;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    width: 100px;
+    padding: 10px;
+  }
+}
