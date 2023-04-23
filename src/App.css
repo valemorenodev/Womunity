@@ -11,3 +11,11 @@
 .testimonials-main {
     background-color: #DAFF7C33;
 }
+
+.dashboard {
+    width: 100%;
+    object-fit: contain;
+    margin: 100px auto 0;
+    display: block;
+    object-position: top;
+}
