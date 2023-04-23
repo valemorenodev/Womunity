@@ -3,11 +3,12 @@
 .header {
     background: #fff;
     max-width: 100%;
+    padding: 20px 0;
 
     &__content {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
 
         &--logo {
             img {
@@ -17,20 +18,7 @@
 
         &--links {
             ul {
-                list-style: none;
-                display: flex;
-                align-items: center;
-                margin: 0;
-                margin-right: 3px;
-                gap: 2px;
-
-                li {
-                    a {
-                        text-decoration: none;
-                        font-size: 8px;
-                        color: #000;
-                    }
-                }
+                display: none;
             }
         }
 

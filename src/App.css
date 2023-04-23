@@ -3,6 +3,14 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 .bg-main {
     background-image: url('./assets/images/bg_hero-categories-2.png');
     background-size: cover;
