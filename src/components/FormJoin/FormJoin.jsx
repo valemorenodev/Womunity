@@ -1,9 +1,6 @@
-import { Container, Row, Col, Form } from "react-bootstrap";
+import { Container, Row, Col, Form, Image } from "react-bootstrap";
 import './FormJoin.scss'
-import formStar1 from '../../assets/images/formStar1.png'
-import formStar2 from '../../assets/images/formStar2.png'
-import formImage1 from '../../assets/images/formImg1.png'
-import formImage2 from '../../assets/images/formImg2.png'
+import formImg from '../../assets/images/formImg.png'
 
 const FormJoin = () => {
   return (
@@ -11,18 +8,11 @@ const FormJoin = () => {
       <Container>
         <Row>
           <Col>
-            <div className={"form_image"}>
-              <img src={formImage2} alt="" className={"form_image--item"} />
-              <img src={formStar2} alt="" className={"form_circle"} />
-            </div>
-            <div className={"form_image"}>
-              <img src={formStar1} alt="" className={"form_circle"} />
-              <img src={formImage1} alt="" className={"form_image--item"} />
-            </div>
+            <Image src={formImg} />
           </Col>
           <Col>
             <Form action="" className={'form_container'}>
-              <h5>Encuentra tu comunidad llenando este formulario:</h5>
+              <h5 className={"form_container--label"}>Encuentra tu comunidad llenando este formulario:</h5>
               <Form.Control className={'inputs'} type="text" placeholder="Nombre y apellido" />
               <Form.Control className={'inputs'} type="text" placeholder="Correo electrónico" />
               <Form.Control className={'inputs'} type="text" placeholder="Lugar de residencia" />
