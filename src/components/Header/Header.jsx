@@ -1,6 +1,25 @@
+import{ useState } from 'react';
+import {useNavigate} from 'react-router-dom';
+
 import './Header.scss'
 
-const Header = () => {  
+const Header = () => { 
+    const navigate = useNavigate();
+    const [dashboard, setDashboard] = useState([]);
+
+    const handleLogin = () => {
+        fetch('https://jsonplaceholder.typicode.com/posts?_limit=10')
+        .then(response => response.json())
+        .then((data) => {
+            console.log(dashboard);
+            navigate('/dashboard')
+            setDashboard(data);
+            return data;
+        }).catch((err) => {
+            console.log(err.message);
+        });
+      }
+
     return (
         <header className={ 'header'}>
             <div className={ 'header__content'}>
@@ -24,7 +43,8 @@ const Header = () => {
                 </div>
                 <div className={ 'header__content--actions'}>
                     <button className={ 'register'}>Registrate</button>
-                    <button>Entra a tu espacio</button>
+                    <button onClick={ handleLogin }>Entra a tu espacio</button>
+
                 </div>
             </div>
         </header>

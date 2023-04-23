@@ -1,19 +1,28 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
-import Header from './components/Header/Header'
-import Hero from './components/Hero/Hero';
-import Directory from './components/Directory/Directory';
-import Categories from './components/Categories/Categories';
+import {Routes, Route} from 'react-router-dom';
+import Dashboard from './pages/dashboard';
+import Home from './pages/home'
+
+import {BrowserRouter as Router} from 'react-router-dom';
 
 function App() {
 
   return (
-    <>
-      <Header />
-      <Hero />
-      <Categories />
-      <Directory />
+    <Router>
+      <>
+      <Routes>
+        <Route path='/' element={
+              <Home />
+          } />
+          <Route path='/dashboard' element={
+            <Dashboard 
+            // {...dashboard} 
+          />
+        } />
+      </Routes>
     </>
+    </Router>
   )
 }
 

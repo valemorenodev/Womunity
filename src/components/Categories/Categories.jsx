@@ -3,10 +3,10 @@ import "./Categories.scss"
 
 const Categories = () => {
   return (
-    <section className={'categories'}>
+    <section id="categories" className={'categories'}>
       <div className={'categories__container'}>
         <div className={'categories__container--text'}>
-          <h1>¡Únete a la conversación!</h1>
+          <h2>¡Únete a la conversación!</h2>
           <p>Participa y ayúdanos a promover una cultura de igualdad de género</p>
         </div>
         <Row className={'categories__container--cardsContainer'}>

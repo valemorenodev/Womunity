@@ -1,6 +1,7 @@
 .categories {
-  margin-top: auto;
-  padding: 20px 60px;
+  max-width: 1444px;
+  margin: 40px auto;
+  padding: 30px 60px;
 
   &__container {
     display: flex;
@@ -11,6 +12,11 @@
 
     &--text {
       text-align: center;
+      h2 {
+        font-size: 48px;
+        line-height: 72px;
+        font-weight: bold;
+      }
     }
 
     &--cardsContainer {
