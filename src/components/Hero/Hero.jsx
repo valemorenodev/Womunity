@@ -1,6 +1,6 @@
 import './Hero.scss'
 
-import heroImg from '../../assets/images/hero.png'
+import heroImg from '../../assets/images/hero-2.png'
 
 const Hero = () => {
   return (

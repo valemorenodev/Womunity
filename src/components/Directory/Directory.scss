@@ -2,6 +2,9 @@
     max-width: 1444px;
     margin: 0 auto;
     padding: 30px 80px;
+    background-image: url('../../assets/images/star.png');
+    background-repeat: no-repeat;
+    background-position: center;
 
     &__title {
         font-size: 48px;
@@ -22,6 +25,7 @@
         align-items: center;
         justify-content: space-between;
         gap: 60px 40px;
+        border-radius: 34px;
         &--item {
             background: #4D55F51A;
             box-shadow: 0 0.375rem 0.5rem rgba(0, 0, 0, 0.12);
