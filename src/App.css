@@ -4,6 +4,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
 .bg-main {
     flex-direction: column;
     display: flex;

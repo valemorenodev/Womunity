@@ -1,3 +1,5 @@
+@import '../styles/_mixins.scss';
+
 .directory {
     max-width: 1444px;
     margin: 0 auto;
@@ -21,11 +23,15 @@
     }
 
     &__cards {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 60px 40px;
-        border-radius: 34px;
+        flex-direction: column;
+        @include desktop {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 60px 40px;
+            border-radius: 34px;
+            flex-direction: row;
+        }
         &--item {
             background: #4D55F51A;
             box-shadow: 0 0.375rem 0.5rem rgba(0, 0, 0, 0.12);

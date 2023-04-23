@@ -1,3 +1,5 @@
+@import '../styles/_mixins.scss';
+
 .testimonials {
     max-width: 1444px;
     margin: 0 auto;
@@ -18,15 +20,22 @@
     }
 
     &__cards {
-        display: flex;
-        align-items: start;
-        justify-content: space-between;
-        gap: 60px;
+        flex-direction: column;
+        @include desktop {
+            display: flex;
+            align-items: start;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 60px;
+        }
         &--item {
             text-align: center;
             &-image {
                 border-radius: 40px;
                 text-align: left;
+                img {
+                    width: 100%;
+                }
             }
 
             h3 {
